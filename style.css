@@ -1,0 +1,76 @@
+
+.crt {
+  color: rgb(45, 8, 177);
+  font-size: 22px;
+  font-weight: bold;
+}
+#my {
+  animation: blinkingText 1.2s infinite;
+  text-align: center;
+}
+@keyframes blinkingText {
+  0% {
+    color: red;
+  }
+  49% {
+    color: green;
+  }
+  60% {
+    color: blue;
+  }
+  99% {
+    color: magenta;
+  }
+  100% {
+    color: rgb(252, 252, 9);
+  }
+}
+.name {text-align: center;
+  color: darkred;
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+}
+.sk {
+  color: rgb(157, 8, 177);
+  font-size: 20px;
+  font-weight: bold;
+}
+.txt {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+.txt1 {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+
+#dp {
+  width: 50%;
+margin: auto;
+padding: auto;
+display: grid;
+ 
+}
+
+#button{
+ font-size: 18px;
+ font-weight: bold;
+ color: rgb(173, 50, 87);
+}
+#button:hover{
+  background-color: rgb(149, 209, 243);
+}
+#ct {
+  padding-left: 120px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
